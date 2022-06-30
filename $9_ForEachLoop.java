@@ -15,6 +15,7 @@ public class $9_ForEachLoop {
             System.out.println("Integer"+arr[i]);
         }
         System.out.println("Statement after for statement");
-        */
+        System.out.println("Loop ends");
+        */  
     }
 }
