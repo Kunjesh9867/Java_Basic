@@ -23,8 +23,5 @@ public class $11_ArrayDemo1 {
             sum+=age[i];
         }
         System.out.println("Sum of all age: "+sum);
-
-
     }
-    
 }
