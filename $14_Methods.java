@@ -25,7 +25,7 @@ public class $14_Methods {
 
     public static void isPrimeEfficient(int num){
         boolean flag = true;
-        for (int i = 2; i < (int)num/2; i++) {
+        for (int i = 2; i < (int)num/2; i++) {  // divided num by 2 and changed to integer, to lessen the number of iterations
             if (num % i == 0) {
                 flag = false;
                 break;  // without using break statement, we can get the same output. But when we use the break then, LET'S SEE if num=48 then it is divisible by 2 and we get flag=false at first loop . So if we use break here, it will TURN OFF the loop and shift to the next line after this loop ==> MORE EFFICIENT / FAST EXECUTION
@@ -63,13 +63,10 @@ public class $14_Methods {
         }
     }
 
-
-
     public static void main(String[] args) {
         isPrime(45);
         isPrimeEfficient(45);
         isPrimeEfficient2(45);
-       
-
     }
+
 }
